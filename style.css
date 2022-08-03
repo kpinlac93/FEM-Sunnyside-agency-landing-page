@@ -1,0 +1,346 @@
+* {
+    padding: 0;
+    margin: 0;
+    line-height: 1em;
+}
+
+
+/* Desktop */
+.dropdown-button {
+    visibility: hidden;
+    position: absolute;
+    background-image: url("images/icon-hamburger.svg");
+    height: 18px;
+    width: 24px;
+}
+
+/* hero */
+.hero-box {
+    height: 100vh;
+    background-color: rgb(73, 188, 241);
+    background-image: url("images/desktop/image-header.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13vh;
+}
+.header-nav {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+}
+.header-nav .menu {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.menu .button {
+    background-color: white;
+    color: black;
+    padding: 18px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.logo {
+    background-image: url("images/logo.svg");
+    height: 24px;
+    width: 124px;
+}
+.hero-box h1 {
+    font-size: 3.5em;
+    letter-spacing: 10px;
+    text-align: center;
+}
+.hero-arrow {
+    background-image: url("images/icon-arrow-down.svg");
+    width: 36px;
+    height: 114px;
+}
+
+/* grid */
+.grid-box {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 75vh 75vh 75vh;
+}
+.egg {
+    background-image: url("images/desktop/image-transform.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.cup {
+    background-image: url("images/desktop/image-stand-out.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.design {
+    background-image: url("images/desktop/image-graphic-design.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.photography {
+    background-image: url("images/desktop/image-photography.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.grid-box .txt {
+    margin: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.txt h2 {
+    font-size: 2.5em;
+}
+.txt p {
+    line-height: 1.4em;
+    font-size: 1em;
+}
+.grid-box .pic-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+.pic-txt h2 {
+    font-size: 2em;
+    color: #24554A;
+}
+.pic-txt p {
+    margin: 0% 25% 10% 25%;
+    line-height: 1.4em;
+    text-align: center;
+    color: #3E7467;
+}
+.photography {
+    color: #052C3B;
+}
+
+
+
+
+/* Testimonials */
+.testimonials {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.testimonials .header {
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: 5px;
+    opacity: 0.5;
+}
+.testimonials .container {
+    display: flex;
+    width: 80%;
+}
+.emily, .thomas, .jennie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+}
+.pic {
+    height: 72px;
+    width: 72px;
+    background-size: cover;
+    border-radius: 50px;
+}
+.emily .pic {
+    background-image: url("images/image-emily.jpg");
+}
+.thomas .pic {
+    background-image: url("images/image-thomas.jpg");
+}
+.jennie .pic {
+    background-image: url("images/image-jennie.jpg");
+}
+.testimonials .container div p {
+    margin: 0 20px;
+    line-height: 1.5em;
+}
+.container div h4 {
+    opacity: 0.5;
+    font-size: 0.8em;
+}
+
+
+
+/* Footer */
+.footer .pics {
+    height: 30vw;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.pics .milk {
+    background-image: url("images/desktop/image-gallery-milkbottles.jpg");
+    background-size: cover;
+}
+.pics .orange {
+    background-image: url("images/desktop/image-gallery-orange.jpg");
+    background-size: cover;
+}
+.pics .cone {
+    background-image: url("images/desktop/image-gallery-cone.jpg");
+    background-size: cover;
+}
+.pics .sugar {
+    background-image: url("images/desktop/image-gallery-sugarcubes.jpg");
+    background-size: cover;
+}
+.footer .menu {
+    height: 45vh;
+    background-color: #90D4C6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-logo {
+    background-image: url("images/footer-logo.svg");
+    height: 33px;
+    width: 170px;
+    background-size: cover;
+}
+.footer .menu .links {
+    display: flex;
+    margin-top: -35px;
+    gap: 60px;
+}
+.footer .menu .socials {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.facebook {
+    background-image: url("images/icon-facebook.svg");
+    height: 20px;
+    width: 20px;
+}
+.instagram {
+    background-image: url("images/icon-instagram.svg");
+    height: 20px;
+    width: 20px;
+}
+.twitter {
+    background-image: url("images/icon-twitter.svg");
+    height: 17px;
+    width: 20px;
+}
+.pinterest {
+    background-image: url("images/icon-pinterest.svg");
+    height: 20px;
+    width: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media (max-width: 1100px) {
+    .grid-box .txt {
+        margin: 13vh;
+    }
+}
+@media (max-width: 736px) {
+    .dropdown-button {
+        visibility: unset;
+        position: relative;
+        background-image: url("images/icon-hamburger.svg");
+        height: 18px;
+        width: 24px;
+    }
+    .header-nav .menu {
+        visibility: hidden;
+        position: absolute;
+    }
+    .hero-arrow {
+        margin-top: -8vh;
+    }
+    .grid-box .txt {
+        margin: 10%;
+        text-align: center;
+    }
+    .grid-box {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 75vh 75vh 75vh 75vh 75vh 75vh;
+    }
+    .egg {
+        order: 1;
+    }
+    .transform {
+        order: 2;
+    }
+    .cup {
+        order: 3;
+    }
+    .standout {
+        order: 4;
+    }
+    .design {
+        order: 5;
+    }
+    .photography {
+        order: 6;
+    }
+    .testimonials {
+        height: auto;
+        margin: 10vh 0;
+    }
+    .testimonials .container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .emily, .thomas, .jennie {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .footer .pics {
+        height: 100vw;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+    .pic-txt p {
+        margin: 0% 15% 10% 15%;
+    }
+}
+@media (max-width: 500px) {
+    .hero-box h1 {
+        font-size: 2.5em;
+    }
+}
